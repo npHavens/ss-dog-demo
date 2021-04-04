@@ -1,0 +1,22 @@
+.breedsContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+}
+
+.button {
+  background-color: #d4d4d4;
+  padding: 10px 0;
+  color: black;
+  font-size: 14px;
+  border-radius: 5px;
+  margin: 20px 40px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.selected {
+  color: white;
+  background: rgb(7, 0, 146);
+  background: linear-gradient(90deg, rgba(8, 0, 155, 0.7) 0%, rgba(233,0,255,0.7) 100%);
+}
