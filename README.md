@@ -46,6 +46,8 @@ Your app is ready to be deployed!
 ### State management
 - If the project got any bigger I would likely use context API or Redux to avoid prop-drilling. Also, no state is currently persisted on browser refresh. I would use some remote state store library or localStorage if that was a requirement
 
+### Loading State
+- I only had time for a basic "loading" component. I would make custom one or use a library to create a better loading UX
 ### Shared Component Library
 - For a large production client I would use something like StoryBook for reuseable components
 ### Linting
