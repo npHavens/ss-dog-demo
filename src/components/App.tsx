@@ -22,7 +22,11 @@ function App() {
       </header>
       {
         loading.breeds ? <div>LOADING...</div> :
-          <BreedSelection selectedBreed={ selectedBreed } setSelectedBreed={ setSelectedBreed } breeds={ filteredBreeds }></BreedSelection>
+          <BreedSelection
+            selectedBreed={ selectedBreed }
+            setSelectedBreed={ setSelectedBreed }
+            breeds={ filteredBreeds }
+          ></BreedSelection>
       }
       {
         loading.images ? <div>LOADING...</div> :
